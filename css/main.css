@@ -302,6 +302,14 @@ body::after {
 .aa-cap-item:first-child { border-top: none; }
 .aa-cap-item:hover { background: rgba(17, 17, 16, 0.02); }
 
+.aa-cap-divider {
+  padding: 20px 48px 8px 32px;
+}
+
+.aa-cap-divider .aa-mono {
+  letter-spacing: 0.22em;
+}
+
 .aa-cap-num {
   font-family: var(--mono);
   font-size: 12px;
@@ -368,6 +376,7 @@ body::after {
     word-break: break-word;
   }
   .aa-cap-sub { display: none; }
+  .aa-cap-divider { padding: 16px 24px 4px; }
 }
 
 @media (max-width: 400px) {
