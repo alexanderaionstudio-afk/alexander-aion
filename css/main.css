@@ -98,6 +98,10 @@ body::after {
   align-items: center;
   justify-content: space-between;
   padding: 22px 40px;
+  background: rgba(247, 244, 239, 0.86);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--rule-subtle);
 }
 
 .aa-nav-logo {
